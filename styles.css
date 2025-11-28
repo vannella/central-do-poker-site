@@ -7,6 +7,23 @@ body {
   color: #fff;
 }
 
+/* Área da imagem acima da apresentação */
+.imagem-topo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;     /* distância do cabeçalho */
+  margin-bottom: 10px;  /* distância da apresentação */
+}
+
+.img-grande {
+  width: 42%;          /* tamanho ideal para caber na área da imagem */
+  max-width: 450px;    /* limite para telas grandes */
+  min-width: 280px;    /* mantém bonito no mobile */
+  border-radius: 8px;
+  display: block;
+}
+
 .header {
   text-align: center;
   padding: 40px 20px;
