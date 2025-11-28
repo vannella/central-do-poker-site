@@ -1,19 +1,64 @@
-/* Espaço para o GIF */
-.espaco-gif {
-  width: 100%;
-  height: 180px; /* você pode aumentar ou reduzir */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
+/* styles.css — estilo principal do site Central do Poker */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
 }
 
-/* Ajustando a apresentação */
-.apresentacao p {
-  margin-bottom: 10px; /* deixa mais perto do botão */
+.header {
+  text-align: center;
+  padding: 40px 20px;
+  background: #000;
 }
 
-/* Botão mais próximo */
+.header h1 {
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+.apresentacao,
+.destaques,
 .cta {
-  margin-top: 5px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.botao {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 18px;
+  background: #e63946;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.botao:hover {
+  background: #ff4d5e;
+}
+
+.footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
 }
