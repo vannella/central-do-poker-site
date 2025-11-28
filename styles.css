@@ -1,15 +1,18 @@
-/* Imagem grande no topo */
+/* Área da imagem acima da apresentação */
 .imagem-topo {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 40px 0 10px 0;
+  margin-top: 20px;     /* distância do cabeçalho */
+  margin-bottom: 10px;  /* distância da apresentação */
 }
 
 .img-grande {
-  width: 80%;       /* tamanho grande e responsivo */
-  max-width: 900px; /* limite máximo */
-  border-radius: 10px;
+  width: 42%;          /* tamanho ideal para caber na área da imagem */
+  max-width: 450px;    /* limite para telas grandes */
+  min-width: 280px;    /* mantém bonito no mobile */
+  border-radius: 8px;
+  display: block;
 }
 
 /* Aproxima texto do botão */
