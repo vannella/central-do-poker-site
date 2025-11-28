@@ -1,25 +1,19 @@
-/* Área da imagem acima da apresentação */
-.imagem-topo {
+/* Espaço para o GIF */
+.espaco-gif {
   width: 100%;
+  height: 180px; /* você pode aumentar ou reduzir */
   display: flex;
   justify-content: center;
-  margin-top: 20px;     /* distância do cabeçalho */
-  margin-bottom: 10px;  /* distância da apresentação */
+  align-items: center;
+  margin-bottom: 20px;
 }
 
-.img-grande {
-  width: 42%;          /* tamanho ideal para caber na área da imagem */
-  max-width: 450px;    /* limite para telas grandes */
-  min-width: 280px;    /* mantém bonito no mobile */
-  border-radius: 8px;
-  display: block;
-}
-
-/* Aproxima texto do botão */
+/* Ajustando a apresentação */
 .apresentacao p {
-  margin-bottom: 8px;
+  margin-bottom: 10px; /* deixa mais perto do botão */
 }
 
+/* Botão mais próximo */
 .cta {
   margin-top: 5px;
 }
